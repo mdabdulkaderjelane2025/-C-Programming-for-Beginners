@@ -1,0 +1,1 @@
+Library functions in C are pre-written functions provided by C's standard library. These functions perform specific tasks, such as inputoutput operations, string manipulation, mathematical calculations, memory allocation, and more.
