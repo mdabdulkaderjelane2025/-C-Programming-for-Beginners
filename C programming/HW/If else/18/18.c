@@ -2,16 +2,13 @@
 #include<stdio.h>
 int main()
 {
-    int customerID, units;
-    char name[50];
+    int  units;
+    
     float amount, surcharge;
 
 
-    printf("Enter Customer ID: ");
-    scanf("%d", &customerID);
-    printf("Enter Customer Name: ");
-    scanf(" %[^\n]", name);
-    printf("Enter Units Consumed: ");
+    
+    printf("Enter Units used: ");
     scanf("%d", &units);
 
 
@@ -46,9 +43,8 @@ int main()
     }
 
 
-    printf("\nCustomer ID: %d", customerID);
-    printf("\nCustomer Name: %s", name);
-    printf("\nUnits Consumed: %d", units);
+    
+    printf("\nUnits used: %d", units);
     printf("\nTotal Amount to be Paid: Rs. %.2f", amount);
 
     return 0;
