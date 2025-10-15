@@ -14,6 +14,10 @@ int main()
      {
          printf("The candidate is  eligible for admission.");
      }
+    else if
+    {
+        printf("The candidate is not eligible for admission.");
+    }
  }
 
  else
